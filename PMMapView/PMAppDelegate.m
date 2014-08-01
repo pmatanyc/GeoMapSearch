@@ -7,13 +7,18 @@
 //
 
 #import "PMAppDelegate.h"
+#import "PMMapViewController.h"
 
 @implementation PMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    PMMapViewController *mapVC = [[PMMapViewController alloc]init];
+    self.window.rootViewController = mapVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

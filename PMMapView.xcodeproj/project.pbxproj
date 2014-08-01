@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B28BCED519787DE300EBA8A2 /* PMMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B28BCED419787DE300EBA8A2 /* PMMapAnnotationView.m */; };
 		B29496C719784B780000DAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496C619784B780000DAC7 /* Foundation.framework */; };
 		B29496C919784B780000DAC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496C819784B780000DAC7 /* CoreGraphics.framework */; };
 		B29496CB19784B780000DAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496CA19784B780000DAC7 /* UIKit.framework */; };
@@ -19,6 +20,11 @@
 		B29496E219784B780000DAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496CA19784B780000DAC7 /* UIKit.framework */; };
 		B29496EA19784B780000DAC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29496E819784B780000DAC7 /* InfoPlist.strings */; };
 		B29496EC19784B780000DAC7 /* PMMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29496EB19784B780000DAC7 /* PMMapViewTests.m */; };
+		B29496F619784BFB0000DAC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496F519784BFB0000DAC7 /* MapKit.framework */; };
+		B29496F819784C0E0000DAC7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29496F719784C0E0000DAC7 /* CoreLocation.framework */; };
+		B29496FC19784C870000DAC7 /* PMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29496FA19784C870000DAC7 /* PMMapViewController.m */; };
+		B29496FD19784C870000DAC7 /* PMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29496FB19784C870000DAC7 /* PMMapViewController.xib */; };
+		B29496FF197860240000DAC7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B29496FE197860240000DAC7 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B28BCED319787DE300EBA8A2 /* PMMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMapAnnotationView.h; sourceTree = "<group>"; };
+		B28BCED419787DE300EBA8A2 /* PMMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMapAnnotationView.m; sourceTree = "<group>"; };
 		B29496C319784B780000DAC7 /* PMMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29496C619784B780000DAC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B29496C819784B780000DAC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +56,12 @@
 		B29496E719784B780000DAC7 /* PMMapViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMMapViewTests-Info.plist"; sourceTree = "<group>"; };
 		B29496E919784B780000DAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29496EB19784B780000DAC7 /* PMMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMMapViewTests.m; sourceTree = "<group>"; };
+		B29496F519784BFB0000DAC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B29496F719784C0E0000DAC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B29496F919784C870000DAC7 /* PMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMapViewController.h; sourceTree = "<group>"; };
+		B29496FA19784C870000DAC7 /* PMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMapViewController.m; sourceTree = "<group>"; };
+		B29496FB19784C870000DAC7 /* PMMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMMapViewController.xib; sourceTree = "<group>"; };
+		B29496FE197860240000DAC7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29496F819784C0E0000DAC7 /* CoreLocation.framework in Frameworks */,
+				B29496F619784BFB0000DAC7 /* MapKit.framework in Frameworks */,
 				B29496C919784B780000DAC7 /* CoreGraphics.framework in Frameworks */,
 				B29496CB19784B780000DAC7 /* UIKit.framework in Frameworks */,
 				B29496C719784B780000DAC7 /* Foundation.framework in Frameworks */,
@@ -96,6 +112,8 @@
 		B29496C519784B780000DAC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B29496F719784C0E0000DAC7 /* CoreLocation.framework */,
+				B29496F519784BFB0000DAC7 /* MapKit.framework */,
 				B29496C619784B780000DAC7 /* Foundation.framework */,
 				B29496C819784B780000DAC7 /* CoreGraphics.framework */,
 				B29496CA19784B780000DAC7 /* UIKit.framework */,
@@ -107,8 +125,14 @@
 		B29496CC19784B780000DAC7 /* PMMapView */ = {
 			isa = PBXGroup;
 			children = (
+				B29496FE197860240000DAC7 /* logo.png */,
 				B29496D519784B780000DAC7 /* PMAppDelegate.h */,
 				B29496D619784B780000DAC7 /* PMAppDelegate.m */,
+				B29496F919784C870000DAC7 /* PMMapViewController.h */,
+				B29496FA19784C870000DAC7 /* PMMapViewController.m */,
+				B28BCED319787DE300EBA8A2 /* PMMapAnnotationView.h */,
+				B28BCED419787DE300EBA8A2 /* PMMapAnnotationView.m */,
+				B29496FB19784C870000DAC7 /* PMMapViewController.xib */,
 				B29496D819784B780000DAC7 /* Images.xcassets */,
 				B29496CD19784B780000DAC7 /* Supporting Files */,
 			);
@@ -219,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29496FF197860240000DAC7 /* logo.png in Resources */,
 				B29496D119784B780000DAC7 /* InfoPlist.strings in Resources */,
 				B29496D919784B780000DAC7 /* Images.xcassets in Resources */,
+				B29496FD19784C870000DAC7 /* PMMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29496D319784B780000DAC7 /* main.m in Sources */,
+				B28BCED519787DE300EBA8A2 /* PMMapAnnotationView.m in Sources */,
+				B29496FC19784C870000DAC7 /* PMMapViewController.m in Sources */,
 				B29496D719784B780000DAC7 /* PMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,10 +387,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PMMapView",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PMMapView/PMMapView-Prefix.pch";
 				INFOPLIST_FILE = "PMMapView/PMMapView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +406,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PMMapView",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PMMapView/PMMapView-Prefix.pch";
 				INFOPLIST_FILE = "PMMapView/PMMapView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +479,7 @@
 				B29496F119784B780000DAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B29496F219784B780000DAC7 /* Build configuration list for PBXNativeTarget "PMMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +488,7 @@
 				B29496F419784B780000DAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
